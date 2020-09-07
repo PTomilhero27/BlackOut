@@ -1,0 +1,103 @@
+
+body{
+    background-color: black;
+    background-image: url('balckout.jpg ');
+    background-size: 100% 100%;
+
+ }
+.content{
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+a {
+    display: flex;
+    color: var(--title-color);
+    text-decoration: none;
+    font-size: 25px;
+}
+header a span{
+    background-image:url('log-in.svg') ;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+main h1 {
+    font-size: 50px;
+    color:  rgb(46, 46, 46);
+    padding-left: 200px;
+    padding-top: 90px;
+    
+}
+ p {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: rgb(55, 61, 61);
+    padding-top: 280px;
+    padding-left: 250px;
+
+ }
+main a{
+    width: 100%;
+    max-width: 360px;
+    background-color: rgb(80, 80, 80) ;
+    height: 72px;
+    border-radius: 8px 30px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    transition: 400ms;
+    font-weight: bold;
+    
+}
+
+.btn {
+margin-right: auto;
+margin-left: auto;
+}   
+main a:hover {
+    background-color: rgba(36, 22, 22, 0.795);
+}
+main a span {
+    width: 80px;
+    height: 72px;
+    background-color: rgba(73, 66, 66, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main a span::after {
+    content: "";
+    background-image: url('search.svg');
+    width: 20px;
+    height: 20px;   
+
+}
+main a span strong {
+    flex: 1;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
